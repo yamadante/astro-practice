@@ -1,0 +1,33 @@
+---
+const navtext = [
+    'テスト1',
+    'テスト2',
+    'テスト3'
+]
+---
+<nav class="l-globalnavigation">
+    <ul>
+        <li>
+            <a href="">{navtext[0]}</a>
+        </li>
+        <li>
+            <a href="">{navtext[1]}</a>
+        </li>
+        <li>
+            <a href="">{navtext[2]}</a>
+        </li>
+    </ul>
+</nav>
+
+<style lang="scss">
+    .l-globalnavigation {
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            li {
+                margin: 0 32px;
+
+            }
+        }   
+    }
+</style>
